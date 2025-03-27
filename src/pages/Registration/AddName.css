@@ -1,0 +1,119 @@
+
+/* ExistingFresher_Name  &n UserName */
+/* .left-arrow-round{
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 100%;
+  
+  border-radius: 100%;
+  color: #080808;
+  padding: 2px;
+  width: 28px;
+  height: 25px;
+} */
+.add-name-container {
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  width: 25rem;
+}
+
+/* .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: rgb(8, 8, 8);
+  font-size: 3rem;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.h1-name {
+  font-size: 20px;
+  margin: 0;
+  
+} */
+
+.Subtitle {
+  color: #B1B0B0;
+  font-size: 0.8rem;
+  /* margin-bottom: 30px; */
+  text-align: start !important;
+}
+
+.Name-Input {
+  background-color: #1E1E1E;
+  border-radius: 8px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+}
+.Name-Input .name-input::placeholder{
+  color: #B1B0B0;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.name-input {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  /* width: 100%; */
+  outline: none;
+}
+
+.name-input::placeholder {
+  color: #1a1818;
+}
+
+.next-button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.next-button:disabled {
+  background-color: #333;
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* .back-button {
+  width:1.5rem;
+  height: 1.5rem;
+  background-color: #1E1E1E;
+  border-radius: 100%;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+
+.back-button svg {
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  padding: 1px;
+} */

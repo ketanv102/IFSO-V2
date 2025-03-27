@@ -1,0 +1,11 @@
+.chat-content .message-item{
+  max-width: 90%;
+}
+.chat-content .message-item-self{
+  background: linear-gradient(to right, #2196F3, #9C27B0);
+}
+
+.message-input{
+  height: 60px;
+  border-Radius: 24px;
+}

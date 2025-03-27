@@ -1,0 +1,21 @@
+.delete-offcanvas{
+  height: auto !important;
+}
+.delete-offcanvas .offcanvas-body{
+  margin-top: -3rem;
+  background: #262626;
+}
+.delete-offcanvas .dragger{
+ width: 13%;
+ height: 4px;
+}
+.delete-offcanvas .description{
+  font-size: 14px;
+}
+.delete-offcanvas button{
+  width: 174px;
+  height: 48px;
+}
+.delete-offcanvas .delete-btn{
+  background: #545454;
+}

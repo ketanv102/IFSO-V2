@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.search-container {
+  background-color: #000;
+  color: #F3F3F3;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 2px;
+  margin-bottom: 28px;
+}
+
+.back-btn,
+.options-btn,
+.material-symbols-outlined {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #222;
+  border-radius: 12.84px;
+  padding: 8px 8px 8px 18px;
+  height: 53px;
+  width: 100%;
+  justify-content: center; /* Align items to the left */
+  margin-bottom: 20px;
+}
+
+.search-icon {
+  background-color: transparent;
+  color: white;
+  padding: 0 3px 0 0px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: none;
+  color: white !important;
+  margin-left: 12px;
+  height: 100%;
+  line-height: 24px;
+}
+
+input.search-input::placeholder {
+  color: #B1B0B0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left; /* Ensure the placeholder text aligns left */
+}
+
+.search-input:focus {
+  background-color: transparent;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .chat-header h5 {
+    font-size: 16px;
+  }
+}
+
+/* Messages */
+.material-symbols-outlined {
+  font-size: 24px;
+  color: white;
+  vertical-align: middle;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.back-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 50%;
+  background: #1e1e1e;
+  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* message-header.css */
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3px;
+  color: #fff;
+  padding-top: 25px;
+}
+
+.primary-messages {
+  font-size: 14px;
+  color: #838383;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.requests {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.messages-list {
+  padding: 1px;
+  background-color: #000; /* Match the background color */
+  overflow-y: auto; /* Add scrolling if needed */
+  max-height: 500px; /* Set a maximum height for the list */
+}
+

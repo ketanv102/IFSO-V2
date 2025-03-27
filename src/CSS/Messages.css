@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.search-container {
+  background-color: #000;
+  color: #f3f3f3;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+@media (max-width: 3000px) {
+  .search-container {
+    overflow: hidden;
+  }
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding: 8px 2px;
+  height: 40px;
+  background-color: #000;
+}
+
+.chat-header > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.back-btn,
+.options-btn,
+.material-symbols-outlined {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #222;
+  border-radius: 12.84px;
+  padding: 8px 8px 8px 18px;
+  height: 53px;
+  width: 100%;
+  justify-content: center;
+}
+
+.search-icon {
+  background-color: transparent;
+  color: white;
+  padding: 0 3px 0 0px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: none;
+  color: white !important;
+  margin-left: 12px;
+  height: 100%;
+  line-height: 24px;
+}
+
+input.search-input::placeholder {
+  color: #b1b0b0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.search-input:focus {
+  background-color: transparent;
+}
+
+@media (max-width: 3000px) {
+  .chat-header h5 {
+    font-size: 14px;
+  }
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+  color: white;
+  vertical-align: middle;
+}
+
+.button-container.custom-button-container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0px;
+  gap: 0px;
+
+}
+
+.back-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 50%;
+  background: #1e1e1e;
+  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
+  color: #fff;
+  cursor: pointer;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3px;
+  color: #fff;
+  padding-top: 25px;
+}
+
+.primary-messages {
+  font-size: 14px;
+  color: #838383;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.requests {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.messages-list {
+  padding: 1px;
+  background-color: #000;
+  overflow-y: auto;
+  max-height: 500px;
+  -ms-overflow-style: none;
+}
+
+@media (max-width: 3000px) {
+  .messages-list {
+    overflow: hidden;
+  }
+}
+
+.messages-list::-webkit-scrollbar {
+  display: none;
+}

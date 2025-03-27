@@ -1,0 +1,142 @@
+.fw-500{
+  font-weight: 500;
+}
+.text-danger-custom{
+  color: #ED7171;
+}
+
+.OtpPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.Message {
+  font-size: 0.8rem;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.otp-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.otp-input {
+  width: 75px;
+  height: 50px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  /* color: #fff; */
+  background: #1E1E1E;
+  border: none;
+  box-shadow: 0px 0px 0px 0px rgb(255 255 255 / 12%), 0.5px -0.5px 0px 1px rgb(255 255 255 / 24%);
+}
+
+.otp-input:focus {
+  border: 1px solid white;
+}
+
+.otp-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  margin: 10px auto;
+  font-size: 0.9rem;
+  padding: 0 15px;
+}
+
+.otp-col{
+  padding-left: .4rem;
+  padding-right: .4rem;
+}
+
+.change-number {
+  color: #fff;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+.resend-timer {
+  color: white;
+  /* font-weight: bold; */
+}
+
+.Otp-button {
+  width: 100%;
+  max-width: 320px;
+  padding: 12px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* .Otp-button {
+  background-color: #000000;
+  color: #fdf9f9;
+} */
+
+.otp-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  margin: 10px auto;
+  font-size: 14px;
+  /* font-weight: 500; */
+}
+
+.cta-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 20px; /* Keep it 20px from the bottom */
+  left: 0;
+  right: 0;
+}
+
+.otp-block {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px; /* Adjust for centering */
+}
+
+.change-number {
+  color: #fff;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+.resend-timer {
+  color: #000000;
+  /* font-weight: bold; */
+}
+
+.OtpPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}

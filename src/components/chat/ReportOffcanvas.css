@@ -1,0 +1,28 @@
+.report-offcanvas{
+  height: auto !important;
+}
+.report-offcanvas .offcanvas-body{
+  margin-top: -8rem;
+  background: #262626;
+}
+
+.report-offcanvas .dragger{
+ width: 13%;
+ height: 4px;
+}
+
+.report-offcanvas .description{
+  font-size: 14px;
+}
+
+.report-offcanvas select{
+  background: #1E1E1E;
+}
+
+.report-offcanvas button{
+  width: 174px;
+  height: 48px;
+}
+.report-offcanvas .report-btn{
+  background: #545454;
+}

@@ -1,0 +1,21 @@
+.block-offcanvas{
+  height: auto !important;
+}
+.block-offcanvas .offcanvas-body{
+  margin-top: -3rem;
+  background: #262626;
+}
+.block-offcanvas .dragger{
+ width: 13%;
+ height: 4px;
+}
+.block-offcanvas .description{
+  font-size: 14px;
+}
+.block-offcanvas button{
+  width: 174px;
+  height: 48px;
+}
+.block-offcanvas .block-btn{
+  background: #545454;
+}

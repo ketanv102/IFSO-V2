@@ -1,0 +1,40 @@
+.bg-grayshade{
+  background: #1E1E1E;
+}
+
+.message-item{
+  max-width: 90%;
+}
+.message-item-self{
+  background: linear-gradient(to right, #2196F3, #9C27B0);
+}
+
+.message-item {
+  padding: 20px;
+  width: 100%;
+  max-width: 3000px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid #2c2a32;
+  transition: transform 0.2s ease;
+  overflow: hidden;
+}
+
+/* Apply flex: 0 0 auto to all children */
+.message-item > * {
+  flex: 0 0 auto;
+}
+
+/* Remove border on the last child */
+.message-item:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect */
+.message-item:hover {
+  transform: translateY(-2px);
+}

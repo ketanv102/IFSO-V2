@@ -1,0 +1,68 @@
+.header-wrapper{
+  height: 3.5rem;
+  position: relative;
+  background: #000;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #000;
+  font-weight: 600;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.back-button {
+  width:2rem;
+  height: 2rem;
+  background-color: #1E1E1E;
+  border-radius: 100%;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+
+.h1-name {
+  font-size: 20px;
+  margin: 0;
+}
+
+.back-button svg {
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+}
+
+.kebab-icon{
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #FFF;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+  color: white;
+  vertical-align: middle;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.options-btn{
+  background: none;
+  border: none;
+  color: white;
+  /* font-size: 20px; */
+  cursor: pointer;
+}

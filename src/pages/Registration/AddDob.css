@@ -1,0 +1,125 @@
+/* Date Of Birth */
+
+.DOB-parent-container {
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.DOB-Input {
+  position: relative;
+  width: 100%;
+  margin-bottom: auto;
+}
+.date-input {
+  width: 100%;
+  background-color: #c4c4c4;
+  border: none;
+  border-radius: 17px;
+  padding: 16px;
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+}
+.date-input::placeholder {
+  color: #808080;
+  color: #000000;
+}
+
+
+.date-input:focus {
+  outline: none;
+}
+
+.calendar-icon {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: #050505;
+}
+
+.DBO-header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.DOB-back-button{
+  width:1.5rem;
+  height: 1.5rem;
+  background-color: rgb(253, 253, 253);
+  border-radius: 100%;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.DOB-back-button svg {
+  color: rgb(0, 0, 0);
+  width: 25x;
+  height: 25px;
+  padding: 1px;
+}
+
+.DOB-h1-name {
+  font-size: 20px;
+  margin: 0;
+}
+
+.DOB-Subtitle{
+  color: #020202;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  text-align: start !important;
+}
+
+
+
+.button-container {
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 23rem;
+  padding: 0 20px;
+  flex-direction: row; 
+}
+
+.skip-button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 11px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 173px;
+}
+
+.DOB-next-button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 254, 254);
+  border:none;
+ 
+  border-radius: 11px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 173px;
+
+}

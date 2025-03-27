@@ -1,0 +1,8 @@
+.background-blur{
+  filter: blur(2px) opacity(0.8);
+  transition: ease-in 0.1s;
+}
+
+.offcanvas-backdrop.show{
+  opacity: 0 !important;
+}
